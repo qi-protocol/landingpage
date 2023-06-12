@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rollup -c",
+    "deploy": "npm run build && git checkout -b gh-pages && mv public/* . && echo 'qiprotocol.com' > CNAME && git add . && git commit -m 'Deploy to GitHub Pages' && git push -u origin gh-pages",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
