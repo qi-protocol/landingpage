@@ -39,8 +39,6 @@
 
   <p><strong>At our core, we revolutionize the landscape of on-chain transactions. Our mission is to address the friction surrounding transactions by fostering the equitable distribution of MEV and delivering better execution quality.</strong></p>
 
-  <p>We leverage the power of ERC4337 to introduce a comprehensive and innovation solution. Our platform harnesses the capabilities on the granular control and flexibility offered by ERC4337, we enhance execution quality and elevate quality of the user experience.</p>
-  
   <button class="custom-button" on:click={joinBeta}>Join Beta</button>
   
   <footer>
